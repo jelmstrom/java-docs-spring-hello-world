@@ -23,6 +23,6 @@ public class DemoApplication {
 	@RequestMapping("/")
 	String sayHello() {
 		logger.info("Got called!");
-		return "Azure deplyed!";
+		return "Azure deployed ... !";
 	}
 }
