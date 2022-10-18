@@ -1,3 +1,12 @@
 {
-    "connectionString": "InstrumentationKey=3fa36689-016b-460a-9463-ca5783f81dd0;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/"
+    "connectionString": "InstrumentationKey=3fa36689-016b-460a-9463-ca5783f81dd0;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/",
+    "selfDiagnostics": {
+        "destination": "file+console",
+        "level": "INFO",
+        "file": {
+          "path": "applicationinsights.log",
+          "maxSizeMb": 5,
+          "maxHistory": 1
+        }
+    }
 }
